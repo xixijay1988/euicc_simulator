@@ -1,0 +1,23 @@
+# eUICC Simulator - Dependencies
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# ASN.1 encoding/decoding
+asn1tools==0.167.0
+
+# Cryptography (ECDSA P-256, X.509, AES for SCP03t)
+cryptography==44.0.0
+
+# HTTP client for inter-service communication
+httpx==0.28.1
+
+# Database
+sqlalchemy==2.0.36
+alembic==1.14.0
+aiosqlite==0.20.0
+
+# Utilities
+python-dotenv==1.0.1
+structlog==24.4.0

@@ -1,0 +1,19 @@
+server:
+  tcp_start_port: 9000
+  http_port: 8100
+  host: "0.0.0.0"
+
+euicc:
+  svn: "3.1.0"
+  profile_version: "2.3.1"
+  iot_version: "1.2.0"
+  platform_label: "GSMA-eSIM-Simulator"
+
+database_url: "sqlite:///./esim_simulator.db"
+certs_dir: "./certs"
+
+# Per-port EID mapping for TCP connections
+eids:
+  9000: "89049032123451234512345678901235"
+  9001: "89049032123451234512345678901236"
+  9002: "89049032123451234512345678901237"
